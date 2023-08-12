@@ -1,0 +1,14 @@
+{
+	"hash": "d41d8cd98f00b204e9800998ecf8427e",
+	"updated": "2023-08-11T21:23:20.0763918-03:00",
+	"installedModules": {
+		"https://github.com/academiadocodigo/router4delphi": {
+			"name": "router4delphi",
+			"version": "1.0.8",
+			"hash": "3a4df5a56cfc2aedb664330a3428400f",
+			"artifacts": {},
+			"failed": false,
+			"changed": false
+		}
+	}
+}
