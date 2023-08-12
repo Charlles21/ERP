@@ -1,0 +1,19 @@
+object PageIndex: TPageIndex
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 523
+  ClientWidth = 706
+  WindowState = wsMaximized
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Layout1: TLayout
+    Align = Client
+    Size.Width = 706.000000000000000000
+    Size.Height = 523.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 1
+  end
+end

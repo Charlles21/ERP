@@ -1,0 +1,25 @@
+unit uPageHome;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants,
+  FMX.Types, FMX.Controls, FMX.Forms, FMX.Graphics, FMX.Dialogs, FMX.Layouts;
+
+type
+  TPageHome = class(TForm)
+    litContainer: TLayout;
+  private
+    { Private declarations }
+  public
+    { Public declarations }
+  end;
+
+var
+  PageHome: TPageHome;
+
+implementation
+
+{$R *.fmx}
+
+end.

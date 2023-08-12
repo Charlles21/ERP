@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2023/07/16 01:01:21.000.895,=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/16 01:01:30.000.119,=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/16 01:04:19.000.103,=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/16 01:07:31.000.571,=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/07/16 01:26:06.000.701,=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 21:02:36.000.191,=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 21:03:00.000.835,=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 21:03:09.453,=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 21:03:35.796,D:\Desenv\ERP\ERP.fmx=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Unit1.fmx</Transaction>
+    <Transaction>2023/08/11 21:03:35.796,D:\Desenv\ERP\ERP.pas=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 21:52:01.877,D:\Desenv\ERP\EPRPrincipal.dproj=C:\Users\Charlles\Documents\Embarcadero\Studio\Projects\Project1.dproj</Transaction>
+    <Transaction>2023/08/11 21:57:31.060,=D:\Desenv\ERP\Unit1.pas</Transaction>
+    <Transaction>2023/08/11 22:05:01.415,D:\Desenv\ERP\View\Router\Router.pas=D:\Desenv\ERP\Unit1.pas</Transaction>
+  </Transactions>
+	<ActiveMobileDevice>
+		<NoProfile iOSSimulator="iPhone5" Android="teste" Android64="teste"/>
+	</ActiveMobileDevice>
+</BorlandProject>

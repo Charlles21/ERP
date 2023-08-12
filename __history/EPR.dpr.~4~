@@ -1,0 +1,16 @@
+program EPR;
+
+uses
+  System.StartUpCopy,
+  FMX.Forms,
+  ERPPrincipal in 'ERPPrincipal.pas' {Form1},
+  Router in 'View\Router\Router.pas',
+  uPageHome in 'View\Router\Pages\Home\uPageHome.pas' {PageHome};
+
+{$R *.res}
+
+begin
+  Application.Initialize;
+  Application.CreateForm(TForm1, Form1);
+  Application.Run;
+end.
