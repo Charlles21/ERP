@@ -1,0 +1,45 @@
+unit ButtomMenu;
+
+interface
+
+uses
+  System.SysUtils, System.Types, System.UITypes, System.Classes, System.Variants, 
+  FMX.Types, FMX.Graphics, FMX.Controls, FMX.Forms, FMX.Dialogs, FMX.StdCtrls,
+  FMX.Layouts, FMX.Controls.Presentation, FMX.Objects;
+
+type
+  TComponentButtomMenu = class(TFrame)
+    lytContainer: TLayout;
+    Layout1: TLayout;
+    lytMenu: TLayout;
+    lytIImageInfoMenu: TLayout;
+    lytImageMenu: TLayout;
+    MenuImage: TImage;
+    ImageInfo: TImage;
+    lytDescricaoMenu: TLayout;
+    lblDescricao: TLabel;
+    lytSubMenu: TLayout;
+  private
+    { Private declarations }
+  public
+     class function new: TComponentButtomMenu;
+     function component : TFMXObject;
+  end;
+
+implementation
+
+{$R *.fmx}
+
+{ TComponentButtomMenu }
+
+function TComponentButtomMenu.component: TFMXObject;
+begin
+  result:= lytContainer;
+end;
+
+class function TComponentButtomMenu.new: TComponentButtomMenu;
+begin
+  result := Self.Create(nil);
+end;
+
+end.

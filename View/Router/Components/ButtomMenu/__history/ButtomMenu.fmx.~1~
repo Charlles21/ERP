@@ -1,0 +1,12 @@
+object ComponentButtomMenu: TComponentButtomMenu
+  Size.Width = 266.000000000000000000
+  Size.Height = 269.000000000000000000
+  Size.PlatformDefault = False
+  object lytContainer: TLayout
+    Align = Client
+    Size.Width = 266.000000000000000000
+    Size.Height = 269.000000000000000000
+    Size.PlatformDefault = False
+    TabOrder = 0
+  end
+end
