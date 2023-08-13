@@ -17,13 +17,14 @@ var
 implementation
 
 uses
-  Router4D;
+  Router4D, frmPageHome, frmlayout;
 
 constructor TRouter.Create;
 begin
- { TRouter4D
-     .Switch
-         .Router('Home', );}
+ TRouter4D
+    .Switch
+    .Router('Layout', TPageLayout)
+    .Router('Home', TPageHome);
 end;
 
 destructor TRouter.Destroy;

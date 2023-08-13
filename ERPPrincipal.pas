@@ -8,7 +8,8 @@ uses
 
 type
   TPageIndex = class(TForm)
-    Layout1: TLayout;
+    lytContainer: TLayout;
+    procedure FormCreate(Sender: TObject);
   private
     { Private declarations }
   public
@@ -20,6 +21,15 @@ var
 
 implementation
 
+uses
+  Router4D, frmLayout;
+
 {$R *.fmx}
+
+procedure TPageIndex.FormCreate(Sender: TObject);
+begin
+  TRouter4d.Render<TPageLayout>
+    .setElement(lytContainer, lytContainer);
+end;
 
 end.

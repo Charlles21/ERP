@@ -5,14 +5,13 @@ uses
   FMX.Forms,
   ERPPrincipal in 'ERPPrincipal.pas' {PageIndex},
   Router in 'View\Router\Router.pas',
-  uPageHome in 'View\Router\Pages\Home\uPageHome.pas' {PageHome},
-  Layout in 'View\Router\Layout\Layout.pas' {PageLayout};
+  frmPageHome in 'View\Router\Pages\Home\frmPageHome.pas' {PageHome},
+  frmLayout in 'View\Router\Layout\frmLayout.pas' {PageLayout};
 
 {$R *.res}
 
 begin
   Application.Initialize;
   Application.CreateForm(TPageIndex, PageIndex);
-  Application.CreateForm(TPageLayout, PageLayout);
   Application.Run;
 end.
